@@ -1,0 +1,74 @@
+*{
+    font-family: 'Brush Script MT', cursive;
+}
+body{
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: midnightblue;
+    margin-bottom: 10px;
+}
+h2{
+    text-align: center;
+}
+input[type="text"]{
+    width: 350px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00000017;
+}
+input[type="button"]{
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #00000017 ;
+    color: navy blue;
+    border-radius: 30px;
+}
+#textEle{
+    text-align: center;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: black ;
+    font-size: 18px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer */
+    color: black;
+    font-size: 18px;
+  }
+  
+::placeholder{
+    color: black;
+    font-size: 18px;
+}
+#warningMessage{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    margin: 20px 0px;
+}
+p{
+    width: 300px;
+    margin: 0px 20px;
+    font-size: 22px;
+    border-bottom: 1px solid black;
+}
+button{
+    padding: 10px 20px;
+    border: 10px;
+    background-color: #fbffe3 ;
+}
+.divClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}

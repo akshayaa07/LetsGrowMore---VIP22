@@ -1,0 +1,32 @@
+.App {
+  font-family: 'Brush Script MT', cursive
+  text-align: center;
+}
+body {
+  background-color: #fdfaeb;
+}
+h1 
+{
+  font-size: 40px;
+  text-transform: ;
+} 
+#flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8ecc4;
+}
+button {
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+  color: midnightblue;
+  background-color: #fff9e2;
+  padding: 10px 15px;
+  margin: 20px;
+}
+#f-Div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+}
